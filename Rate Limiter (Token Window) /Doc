@@ -1,0 +1,2 @@
+This code implements Api rate limiter with Token Bucket algorithm. Constructor takes 3 params: Bucket size (x), no of seconds after which new token will be added(y), frequency of tokens to be added after every y seconds (z).
+This rate limiter is multi threaded and can support concurrent clients at a time.
